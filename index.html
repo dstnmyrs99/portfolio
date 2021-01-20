@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dustin Myers</title>
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/a225e1ed1d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <main>
+
+
+    <header>
+      <h1>Dustin Myers</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Introduction -->
+
+    <section class="intro">
+      <img src="images/intro.jpg" alt="">
+      <div class='intro-text'>
+        <h2>Hello I'm Dustin</h2>
+        <p>A software Engineer in the San Antonio area. I've spent the last 8 years managing warehouses and manufacturing plants. While I did enjoy some of what I did, like the people side of the job, I always felt like something was missing.</p>
+          <br>
+        <p>I wrote python scripts to make my daily routines easier and fell in love with coding. Since then I haven't stopped learning and writing code. </p>
+      </div>
+    </section>
+    <!-- About Me -->
+    <section id='about'>
+      <h4>What I have learned</h4>
+      <div class="skills">
+        <div>
+          <i class="fab fa-js-square fa-4x"></i>
+          <p>JavaScript</p>
+        </div>
+        <div>
+          <i class="fab fa-react fa-4x"></i>
+          <p>React</p>
+        </div>
+        <div>
+          <i class="fab fa-html5 fa-4x"></i>
+          <p>HTML5</p>
+        </div>
+        <div>
+          <i class="fab fa-css3-alt fa-4x"></i>
+          <p>CSS3</p>
+        </div>
+        <div>
+          <i class="fab fa-node fa-4x"></i>
+          <p>Node.js</p>
+        </div>
+        <div>
+          <i class="fab fa-python fa-4x"></i>
+          <p>Python</p>
+        </div>
+        <div>
+          <i class="fab fa-github fa-4x"></i>
+          <p>GitHub</p>
+        </div>
+      </div>
+      <br>
+      <hr>
+      <div class="outside">
+        <h4>Outside of programming</h4>
+        <p>I enjoy any activity I can do with my family. I have 3 kids and a wonderful wife. We like to go camping, kayaking, and other outdoor activities.</p>
+        <p>I also like football, mixed martial arts, and video games.</p>
+      </div>
+    </section>
+
+
+    <!-- Portfolio -->
+    <h3>Projects</h3>
+    <section class="projects" id='projects'>
+      <div class="project">
+        <img src="images/notekeeper.PNG" alt="note keeper app">
+        <h4>Note Keeper ++</h4>
+        <div class="project-links">
+          <a href="https://loving-torvalds-5af1e1.netlify.app/" target="_blank">live</a>
+          <a href="https://github.com/dstnmyrs99/notekeeper" target="_blank">code</a>
+        </div>
+        <p>A note keeping app I made using React. I Made this to help me keep track of my notes for the Thinkful bootcamp</p>
+        <hr>
+      </div>
+      <div class="project">
+        <img src="images/poke.PNG" alt="pokemon app">
+        <h4>Poke Battle</h4>
+        <div class="project-links">
+          <a href="https://jovial-bartik-817ea6.netlify.app/" target="_blank">live</a>
+          <a href="https://github.com/dstnmyrs99/poke-battle" target="_blank">code</a>
+        </div>
+        <p>Have you ever been bored and wanted a nostalgia kick? I made this mini game just for that. I used React for this project.</p>
+        <hr>
+      </div>
+
+    </section>
+    <section class="projects">
+      <div class="project">
+        <img src="images/platformer.PNG" alt="dino platformer game">
+        <h4>Platformer Game</h4>
+        <div class="project-links">
+          <a href="https://dinoplatformer.herokuapp.com/" target="_blank">live</a>
+          <a href="https://github.com/dstnmyrs99/platformer" target="_blank">code</a>
+        </div>
+        <p>Who doesn't like platforming games right? I made this game to stop my 5 year old son from turning off the wifi. I used Phaser, JavaScript, Jquery, and PostgreSQL.</p>
+        <hr>
+      </div>
+      <div class="project">
+        <img src="images/crosser.PNG" alt="road crosser game">
+        <h4>Road Crosser Game</h4>
+        <div class="project-links">
+          <a href="https://dstnmyrs99.github.io/crosser/" target="_blank">live</a>
+          <a href="https://github.com/dstnmyrs99/crosser" target="_blank">code</a>
+        </div>
+        <p>Can you navigate through the spiders to get the treasure? I made this to learn about Canvas. I used HTML, CSS, JavaScript, and Canvas.</p>
+        <hr>
+      </div>
+
+    </section>
+    <!-- Contact -->
+    <section class="contact" id='contact'>
+      <form action="https://formspree.io/f/xbjpwgjk" method="post">
+        <fieldset>
+          <legend>Contact me</legend>
+          <div>
+            <label for="name">Name:</label>
+            <input id="name" type="text" name="name" required />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="email" required />
+          </div>
+          <div>
+            <label for="message">Your message:</label>
+            <textarea id="message" name="message" required placeholder="How can I help you?"></textarea>
+          </div>
+          <div class="project-links">
+            <button type="submit">Send</button>
+            <div>
+              <a href="https://www.linkedin.com/in/dustin-myers-1997a8184" target="_blank"><img class='linkedin' src="images/linkedin.png" alt="Linkedin"></a>
+              <a href="https://github.com/dstnmyrs99" target="_blank"><img src="images/github.png" alt="Github" class='git'></a>
+            </div>
+          </div>
+
+        </fieldset>
+
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© Dutin Myers</p>
+  </footer>
+
+</body>
+
+</html>
