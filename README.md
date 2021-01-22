@@ -1,2 +1,2 @@
 # portfolio
-### [Veiw](https://dstnmyrs99.github.io/portfolio/)
+### [View](https://dstnmyrs99.github.io/portfolio/)
